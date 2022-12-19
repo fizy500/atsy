@@ -1,7 +1,7 @@
 import React from "react";
-import Email from "./footer-assets/email.svg";
-import Location from "./footer-assets/location.svg";
-import FooterLogo from "./footer-assets/footer-logo.png";
+import Email from "../Assets/email.svg";
+import Location from "../Assets/location.svg";
+import FooterLogo from "../Assets/footer-logo.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

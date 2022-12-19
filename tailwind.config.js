@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'lady': "url(./Pages/Homepage-assets/lady.png)",
-        'ladyDesktop': "url(./Pages/Homepage-assets/lady-desktop.png)",
-        'Egypt': "url(./Pages/Homepage-assets/egypt.png)",
-        'EgyptDesktop': "url(./Pages/Homepage-assets/egypt-desktop.png)",
-        'Pharoah-Mobile': "url(./Pages/Homepage-assets/pharoah-mobile.png)",
-        'Pharoah-Desktop': "url(./Pages/Homepage-assets/pharoah-desktop.png)",
-        'gallery':"url(./Pages/Homepage-assets/gallery.png)",
+        'lady': "url(./Assets/Homepage-assets/lady.png)",
+        'ladyDesktop': "url(./Assets/Homepage-assets/lady-desktop.png)",
+        'Egypt': "url(./Assets/Homepage-assets/egypt.png)",
+        'EgyptDesktop': "url(./Assets/Homepage-assets/egypt-desktop.png)",
+        'Pharoah-Mobile': "url(./Assets/Homepage-assets/pharoah-mobile.png)",
+        'Pharoah-Desktop': "url(./Assets/Homepage-assets/pharoah-desktop.png)",
+        'gallery':"url(./Assets/Homepage-assets/gallery.png)",
       }
     },
   },

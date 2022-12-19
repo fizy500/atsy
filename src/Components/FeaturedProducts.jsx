@@ -1,11 +1,12 @@
 import React from "react";
-import Arrow from "./FeaturedProducts-assets/arrow.png";
-import ArrowBlack from "./FeaturedProducts-assets/arrow-black.svg";
-import Contributor1 from "./FeaturedProducts-assets/contributor1.png";
-import Contributor2 from "./FeaturedProducts-assets/contributor2.png";
-import Contributor3 from "./FeaturedProducts-assets/contributor3.png";
-import Contributor4 from "./FeaturedProducts-assets/contributor4.png";
-import Contributor5 from "./FeaturedProducts-assets/contributor5.png";
+import Arrow from "../Assets/arrow.png";
+import ArrowBlack from "../Assets/arrow-black.svg";
+import Contributor1 from "../Assets/contributor1.png";
+import Contributor2 from "../Assets/contributor2.png";
+import Contributor3 from "../Assets/contributor3.png";
+import Contributor4 from "../Assets/contributor4.png";
+import Contributor5 from "../Assets/contributor5.png";
+
 
 export default function FeaturedProducts() {
   return (
@@ -47,7 +48,11 @@ export default function FeaturedProducts() {
             </div>
             <div className="hidden lg:block">
               <button className="border border-solid border-[#333333] rounded-[50%]  ">
-                <img src={ArrowBlack} alt="" className="h-[40px] w-[40px] p-1 " />
+                <img
+                  src={ArrowBlack}
+                  alt=""
+                  className="h-[40px] w-[40px] p-1 "
+                />
               </button>
             </div>
           </div>
@@ -58,3 +63,5 @@ export default function FeaturedProducts() {
     </div>
   );
 }
+
+

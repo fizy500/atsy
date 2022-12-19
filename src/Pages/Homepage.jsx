@@ -2,14 +2,14 @@ import React from "react";
 import { Navbar } from "../Components/Navbar";
 // import { Slideshow } from "../Components/SlideShow";
 
-import Arrow2 from "./Homepage-assets/arrow-black.svg";
-import ArrowBlue from "./Homepage-assets/arrow-blue.svg";
+import Arrow2 from "../Assets/Homepage-assets/arrow-black.svg";
+import ArrowBlue from "../Assets/Homepage-assets/arrow-blue.svg";
 
-import Dot from "./Homepage-assets/dot.svg";
-import Blackdot from "./Homepage-assets/black-dot.svg";
-import AnimationImage1 from "./Homepage-assets/animation-image1.png";
-import AnimationImage1Desktop from "./Homepage-assets/animation-image1Desktop.png";
-import Footer from "../Components/footer";
+import Dot from "../Assets/Homepage-assets/dot.svg";
+import Blackdot from "../Assets/Homepage-assets/black-dot.svg";
+import AnimationImage1 from "../Assets/Homepage-assets/animation-image1.png";
+import AnimationImage1Desktop from "../Assets/Homepage-assets/animation-image1Desktop.png";
+import Footer from "../Components/Footer";
 import FeaturedProducts from "../Components/FeaturedProducts";
 export default function Homepage() {
   return (

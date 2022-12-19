@@ -1,8 +1,8 @@
 import React from "react";
-import Atsy from "../Components/Navbar-assets/ARTSY.png";
-import Search from "../Components/Navbar-assets/search.png";
-import Notification from "../Components/Navbar-assets/notification.png";
-import Basket from "../Components/Navbar-assets/basket.png";
+import Atsy from "../Assets/ARTSY.png";
+import Search from "../Assets/search.png";
+import Notification from "../Assets/notification.png";
+import Basket from "../Assets/basket.png";
 
 export function Navbar() {
   return (
