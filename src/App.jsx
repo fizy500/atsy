@@ -1,5 +1,6 @@
 import "./App.css";
 import MoreProductCard from "./Components/MoreProductCard";
+import Auction from "./Pages/Auction";
 import Checkout from "./Pages/Checkout";
 import Drop from "./Pages/drop";
 import Homepage from "./Pages/Homepage";
@@ -12,8 +13,8 @@ function App() {
       {/* <ProductDescription /> */}
       {/* <Product/> */}
       {/* <Drop/> */}
-      <Checkout/>
-      
+      {/* <Checkout/> */}
+      <Auction />
     </>
   );
 }
