@@ -8,13 +8,16 @@ export default function Auction() {
       <p className=" font-medium  text-xl text-[#333333]">
         Here’s an overview of products actively on auction, explore!
       </p>
-      <div className="flex  overflow-x-scroll">
+      <div className="flex w-80 overflow-x-scroll">
+        <AuctionVerticalScroll />
+        <AuctionVerticalScroll />
+        <AuctionVerticalScroll />
         <AuctionVerticalScroll />
       </div>
       <p className=" font-medium  text-xl text-[#333333]">
         Top bids from popular creators
       </p>
-      <section className=" lg:grid grid-cols-2 gap-x-10 ">
+      <section className="space-y-10 lg:space-y-0 lg:grid grid-cols-2 gap-x-10 gap-y-8 ">
         <AuctionTopBid />
         <AuctionTopBid />
         <AuctionTopBid />
@@ -23,11 +26,11 @@ export default function Auction() {
         <AuctionTopBid />
       </section>
 
-      <div className=" self-center">
+      <div className=" self-center flex justify-center lg:hidden">
         <div className="flex items-center space-x-3 ">
           <p className="text-lg font-normal text-black">Load more</p>{" "}
-          <button className="">
-            <img src={ArrowGray} alt="" />
+          <button className=" border border-solid border-black rounded-[50%] p-3">
+            <img src={ArrowGray} alt="" className="w-[34px] h-[24px]" />
           </button>
         </div>
       </div>

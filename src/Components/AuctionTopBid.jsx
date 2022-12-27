@@ -6,14 +6,13 @@ export default function AuctionTopBid() {
   return (
     <div className="">
       <div className="px-2 lg:px-0 py-4 shadow-lg shadow-[rgba(0,0,0,0.25)] rounded-[15px] flex flex-col justify-center mb-4 ">
-        <div className="self-end pb-1 border border-solid border-[#333333] rounded-[50%] -space-y-0.5">
-          <img src={LikeRed} alt="" className="p-1" />
+        <div className="self-end pb-1 lg:m-3 border border-solid border-[#333333] rounded-[50%] mb-1 flex justify-center items-center">
+          <img src={LikeRed} alt="" className="p-1 w-[23px] h-[19px]" />
         </div>
-
         <img src={Bid} alt="" />
         <div className="flex justify-between text-[#333333] font-bold text-xl">
           <p>Out of the box</p>
-          <p>0.57 ETH</p>
+          <p className="block lg:hidden">0.57 ETH</p>
         </div>
       </div>
       <div>

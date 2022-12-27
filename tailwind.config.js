@@ -10,7 +10,8 @@ module.exports = {
         'EgyptDesktop': "url(./Assets/Homepage-assets/egypt-desktop.png)",
         'Pharoah-Mobile': "url(./Assets/Homepage-assets/pharoah-mobile.png)",
         'Pharoah-Desktop': "url(./Assets/Homepage-assets/pharoah-desktop.png)",
-        'gallery':"url(./Assets/Homepage-assets/gallery.png)",
+        'gallery': "url(./Assets/Homepage-assets/gallery.png)",
+        'livestream':"url(./Assets/livestream.png)",
       }
     },
   },
