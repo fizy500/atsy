@@ -11,6 +11,8 @@ import AnimationImage1 from "../Assets/Homepage-assets/animation-image1.png";
 import AnimationImage1Desktop from "../Assets/Homepage-assets/animation-image1Desktop.png";
 import Footer from "../Components/Footer";
 import FeaturedProducts from "../Components/FeaturedProducts";
+
+
 export default function Homepage() {
   return (
     <>
@@ -77,7 +79,7 @@ export default function Homepage() {
                 <img
                   src={Arrow2}
                   alt=""
-                  className="h-[40px] w-40px p-1  fill-red-700  "
+                  className="h-[28.25px] w-[28.25px] p-1    "
                 />
               </button>
             </div>
@@ -92,7 +94,7 @@ export default function Homepage() {
                 <img
                   src={Arrow2}
                   alt=""
-                  className="h-[26.25px] w-[26.25px] p-1  "
+                  className="h-[28.25px] w-[28.25px] p-1  "
                 />
               </button>
             </div>

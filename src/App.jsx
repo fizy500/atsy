@@ -1,3 +1,4 @@
+import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import "./App.css";
 import MoreProductCard from "./Components/MoreProductCard";
 import Auction from "./Pages/Auction";
@@ -8,18 +9,19 @@ import Homepage from "./Pages/Homepage";
 import Livestream from "./Pages/Livestream";
 import Product from "./Pages/Product";
 import ProductDescription from "./Pages/ProductDescription";
+
 function App() {
   return (
-    <>
-      {/* <Homepage /> */}
-      {/* <ProductDescription /> */}
-      {/* <Product/> */}
-      {/* <Drop/> */}
-      {/* <Checkout/> */}
-      {/* <Auction /> */}
-      {/* <Checkout2 /> */}
-      <Livestream />
-    </>
+   <Router>
+<Routes>
+<Route path='/' element={<Homepage />}/>
+{/* <Route path='/auction' element={<Auction/>}/> */}
+<Route path='/auction' element={<Auction/>}/>
+<Route path='/drop' element={<Drop/>}/>
+</Routes> 
+
+
+   </Router>
   );
 }
 
