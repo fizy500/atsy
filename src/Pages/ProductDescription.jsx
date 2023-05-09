@@ -6,6 +6,7 @@ import Like from "../Assets/ProductDescription-assets/like.svg";
 import NextForward from "../Assets/ProductDescription-assets/next-forward.svg";
 import NextBackward from "../Assets/ProductDescription-assets/next-backward.svg";
 import MoreProductCard from "../Components/MoreProductCard";
+import DropDown from "../Components/DropDown";
 
 export default function ProductDescription() {
   const [counter, setCounter] = useState(0);
@@ -43,7 +44,7 @@ export default function ProductDescription() {
                 <p className=' font-medium text-[40px] text-[#333333]'>0.09</p>
               </div>
             </div>
-            <div className='p-3 space-y-4'>
+            <div className='p-5 space-y-6'>
               <p className=' text-base text-black font-medium'>
                 Creator : <span className='text-[#006CA2]'>Ali Dawa</span>
               </p>
@@ -56,9 +57,7 @@ export default function ProductDescription() {
               <div className='flex font-medium text-[#333333] text-3xl space-x-4'>
                 <button onClick={() => decreaseNum()}>-</button>
                 <p className=''>{counter}</p>
-                <button onClick={() => increaseNum()}>
-                  +
-                </button>
+                <button onClick={() => increaseNum()}>+</button>
               </div>
               <div className='flex items-center space-x-4'>
                 <button className='py-4 px-14 bg-[#3341C1] rounded-[4px] text-white'>
@@ -69,7 +68,18 @@ export default function ProductDescription() {
                 </button>
               </div>
             </div>
+            <hr className='h-[1px] w-full bg-[#333333]  hidden lg:block ' />
+            <div className='py-5 px-2'>
+              <DropDown>Description</DropDown>
+            </div>
             <hr className='h-[2px] w-full bg-[#333333]  hidden lg:block ' />
+            <div className='py-5 px-2'>
+              <DropDown>Listings</DropDown>
+            </div>
+            <hr className='h-[2px] w-full bg-[#333333]  hidden lg:block ' />
+            <div className='py-5 px-2'>
+              <DropDown>Status</DropDown>
+            </div>
           </div>
         </div>
         <div className='w-full flex justify-center items-center  '>
@@ -79,7 +89,7 @@ export default function ProductDescription() {
               <span className='lg:lowercase'> M</span> ore from this collection
             </p>
 
-            <div className='  space-x-3 hidden lg:flex'>
+            <div className='space-x-3 hidden lg:flex'>
               <button className='border border-solid border-black rounded-[50%]  p-2'>
                 <img
                   src={NextBackward}

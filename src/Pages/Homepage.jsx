@@ -15,6 +15,7 @@ import FeaturedProducts from "../Components/FeaturedProducts";
 
 export default function Homepage() {
   return (
+    
     <>
       <Navbar />
       <main className=" ">
